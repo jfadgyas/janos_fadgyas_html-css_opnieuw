@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <link rel='stylesheet' type='text/css' href='style.css'>
+  <link rel='stylesheet' type='text/css' href='style_contact.css'>
+       <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet">
+    <!-- hier zet je de code in de head tags -->
+        <title>Contact me</title>
+       </head>
+       <body>
+         <!-- hier zet je de code in de body tags-->
+          <header class='site-header'>
+            <h1>contact</h1>
+            <nav>
+              <ul class='menu'>
+                <li><a href='index.html'>Home</a></li>
+                <li><a href='history.html'>History</a></li>
+                <li><a href='clubs.html'>Clubs</a></li>
+                <li><a href='djs.html'>DJs</a></li>
+              </ul>
+            </nav>
+          </header>
+          <form name='contact' method='post' data-netlify='true'>
+            <label>Name (required)</label>
+            <input type='text' name='name'/>
+            <label>Email (required)</label>
+            <input type='email' placeholder='something@anything.anywhere' name='email'/>
+            <label>Telephone (optional)</label>
+            <input type='tel' name='tel' placeholder='0699999999'/> 
+            <label>Subject (required)</label>
+            <input type='text' placeholder='Choose your subject' name='subject'/>
+            <label>Message</label>
+            <textarea name='message'></textarea>
+            <h2>Some extra info if you don't mind</h2>
+            <label>Do you like techno?</label>
+              <ul class='formlist'>
+                <li><input type='radio' name='gender'/>Yeah</li>
+                <li><input type='radio' name='gender'/>Nah</li>
+              </ul>
+            <label>Which clubs have you been to?</label>
+              <ul class='formlist'>
+                <li><input type='checkbox'/>Warehouse Elementenstraat</li>
+                <li><input type='checkbox'/>Shelter</li>
+                <li><input type='checkbox'/>De School</li>
+                <li><input type='checkbox'/>H7 Warehouse</li>
+                <li><input type='checkbox'/>Thuishaven</li>
+                <li><input type='checkbox'/>De Marktkantine</li>
+                <li><input type='checkbox'/>Westergas</li>
+              </ul>
+            <label>Which colour do you wear in clubs?</label>
+            <input type='color' name='color'/>
+            <label>Do you have a website?</label>
+            <input type='url' name='url' placeholder='http://'/>
+            <br>
+            <div class='formlist'>
+              <button class='btn' type='reset'>Reset</button>
+              <button class='btn' type='submit'>Submit</button>
+            </div>
+          </form>
+          <footer class='site-footer'>
+            <p>Created By Janos Fadgyas 2020</p>
+            <p><cite>Sources: Wikipedia, Resident advisor</cite></p>
+          </footer>
+       </body>
+</html>

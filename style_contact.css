@@ -1,0 +1,19 @@
+form{
+    margin-top: 2em;
+}
+label, input, textarea, .formlist{
+    display: block;
+    width: 80%;
+    margin: 1em auto;
+}
+input, textarea{
+    background-color: rgb(30, 30, 37);
+    color: rgb(193, 191, 202);
+    border: 2px solid rgb(34, 38, 66);
+    padding: 2px;
+    font-size: 16px;
+}
+input[type=radio], input[type=checkbox]{
+    width: 40px;
+    display: inline;
+ }
